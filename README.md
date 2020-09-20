@@ -41,8 +41,8 @@ Convolutional Neural Networks have 2 main components:
  </ol>
 For more detailed information on CNNs refer to this <a href=https://medium.com/@purnasaigudikandula/a-beginner-intro-to-convolutional-neural-networks-684c5620c2ce>link</a>
 
-<h2>Our model</h2>
-![](model.png)
+<h2>Our model:</h2>
+<img src="model.png"/>
 
 <br>
 This model has ben taken from a <a href=http://cs231n.stanford.edu/reports/2016/pdfs/005_Report.pdf>research paper</a> by Stanford University on finding the best model for facial expression recognition.
@@ -60,5 +60,5 @@ This model has ben taken from a <a href=http://cs231n.stanford.edu/reports/2016/
 <p>The extracted features by the CNN is now passed through <b>two fully connected layers</b> with the same architecture as the convolutional blocks and then a <b>softmax</b> to make the final prediction on the basis of the probabilities of the 7 emotions predicted.</p>
 <h2>Loss functions, validation accuracy:</h2>
 <p><b>The graphs of the loss-function and the accuracy vs the epochs for the training and testing set are shown below:</b></p>
-![](Loss_Functions_Accuracy_FER.png)
+
 
