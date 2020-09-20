@@ -27,11 +27,11 @@ The class-distribution of the training set is as follows:
 <br>
 <img src="https://algorithmia.com/blog/wp-content/uploads/2018/02/fpsyg-06-00761-g001.jpg", width=500, height=500>
 <br>
-<h2>A brief dicussion of Convolutional Neural Networks</h2>:
-In neural networks, Convolutional neural network (ConvNets or CNNs) is one of the main categories to do images recognition, images classifications. Objects detections, recognition faces etc., are some of the areas where CNNs are widely used. CNN's work on the principle of extracting low-level features in the earlier layers, like edges in the image, to more complex features in the deeper layers using complex mathematical operations (called convolving) on the pixel values of the given image using mathematical entities called filters.
-<br>
-![](cnn_image.jpeg)
-<br>
+<h2>A brief dicussion of Convolutional Neural Networks:</h2>
+<img src="https://miro.medium.com/proxy/1*XbuW8WuRrAY5pC4t-9DZAQ.jpeg"/>
+
+<p>In neural networks, Convolutional neural network (ConvNets or CNNs) is one of the main categories to do images recognition, images classifications. Objects detections, recognition faces etc., are some of the areas where CNNs are widely used. CNN's work on the principle of extracting low-level features in the earlier layers, like edges in the image, to more complex features in the deeper layers using complex mathematical operations (called convolving) on the pixel values of the given image using mathematical entities called filters.</p>
+
 Convolutional Neural Networks have 2 main components:
 <ol>
   <li><b>Feature learning:</b> you can see convolution, ReLU,Pooling layer phases here. Edges,shades,lines,curves, in this Feature learning step are get extracted.</li>
@@ -48,8 +48,6 @@ This model has ben taken from a <a href=http://cs231n.stanford.edu/reports/2016/
   <li><b>Batch Normalisation</b> for normalising the inputs fed into the next layer for avoiding covariate shift.</li>
   <li><b>Maxpooling</b> for extracting the most prominent feature in the feature maps produced after applying the convolution operations and reducing the spatial size of the representation to reduce the amount of parameters and computation in the network</li>
   <li><b>Rectified Linear Unit Activation Function</b> for allowing the model to create complex mappings between the network’s inputs and outputs, which are essential for learning and modeling complex data, such as images and data sets like these which are non-linear and have high dimensionality.</li>
-  
-   
 
 # Loss functions, validation accuracy
-
+![](cnn_image.jpeg)
