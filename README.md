@@ -25,7 +25,7 @@ The class-distribution of the training set is as follows:
   <li>4097 fear images</li>
 </ol>
 <br>
-<img src="https://algorithmia.com/blog/wp-content/uploads/2018/02/fpsyg-06-00761-g001.jpg", width=500, height=500>
+<img src="https://algorithmia.com/blog/wp-content/uploads/2018/02/fpsyg-06-00761-g001.jpg">
 <br>
 <h2>A brief dicussion of Convolutional Neural Networks:</h2>
 
@@ -41,7 +41,7 @@ Convolutional Neural Networks have 2 main components:
  </ol>
 For more detailed information on CNNs refer to this <a href=https://medium.com/@purnasaigudikandula/a-beginner-intro-to-convolutional-neural-networks-684c5620c2ce>link</a>
 
-# Our model
+<h2>Our model</h2>
 ![](model.png)
 <br>
 This model has ben taken from a <a href=http://cs231n.stanford.edu/reports/2016/pdfs/005_Report.pdf>research paper</a> by Stanford University on finding the best model for facial expression recognition.
@@ -57,4 +57,7 @@ This model has ben taken from a <a href=http://cs231n.stanford.edu/reports/2016/
   </ol>
 <br>
 <p>The extracted features by the CNN is now passed through <b>two fully connected layers</b> with the same architecture as the convolutional blocks and then a <b>softmax</b> to make the final prediction on the basis of the probabilities of the 7 emotions predicted.</p>
-# Loss functions, validation accuracy
+<h2>Loss functions, validation accuracy:</h2>
+<p><b>The graphs of the loss-function and the accuracy vs the epochs for the training and testing set are shown below:</b></p>
+![](Loss_Functions_Accuracy_FER.png)
+
