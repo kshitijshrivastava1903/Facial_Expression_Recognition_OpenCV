@@ -61,5 +61,15 @@ This model has ben taken from a <a href=http://cs231n.stanford.edu/reports/2016/
 <h2>Loss Functions, Validation Accuracy:</h2>
 <p><b>The graphs of the loss-function and the accuracy vs the epochs for the training and testing set are shown below:</b></p>
 <img src="Loss_Functions_Accuracy_FER.png"/>
-<p>We can see that we achieve <b>67 % accuracy </b> on the training set and around <b> 64% accuracy </b> on the validation (testing) set.
+<p>After training for 15 epochs, we can see that we achieve <b>67 % accuracy </b> on the training set and around <b> 64% accuracy </b> on the validation (testing) set. We save the model in a json file and its weights in a .h5 file.
+<h2>The model.py script</h2>
+<p>This python script utilises the saved model and its weights and outputs the prediction out of the given list of emotions. This script creates a model object and defines its corresponding functions like .predict_emotion in a class called FacialExpressionModel, which will be used by the camera.py python script as described below, to output the model's prediction after detecting the face.</p>
+<h2>The camera.py script</h2>
+ <p>We use OpenCV's cv2 library and the haarcascade_frontalface_default.xml file in this to detect the face, grayscale it(since our model only understands grayscale images), put a rectangular box around it and output the corresponding prediction beside the rectangular box. We will use the model we trained through its json file we saved. We will put the the value in cv2.videocapture as 0, so that we can make prediction through webcam in real time video.</p>
+<h2>The index.html file</h2>
+<p>This enables us to create a webpage to display our video, where we can specify the title, color and other front-end features, to make our user interface better.</p>
+<h2>The main.py script</h2>
+<p>After we have detected faces using haarcascade and created a webpage to display video, we will integrate these two modules with our server, using flask and display it in our localhost. This is the script that integrates all other files we have created in this project. This will be executed in the terminal to get the final output.</p>
+<h1> Some screenshots of the final output in our browser : </h1>
+
  
