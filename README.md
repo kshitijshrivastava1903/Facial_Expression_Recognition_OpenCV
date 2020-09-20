@@ -58,7 +58,8 @@ This model has ben taken from a <a href=http://cs231n.stanford.edu/reports/2016/
   </ol>
 <br>
 <p>The extracted features by the CNN is now passed through <b>two fully connected layers</b> with the same architecture as the convolutional blocks and then a <b>softmax</b> to make the final prediction on the basis of the probabilities of the 7 emotions predicted.</p>
-<h2>Loss functions, validation accuracy:</h2>
+<h2>Loss Functions, Validation Accuracy:</h2>
 <p><b>The graphs of the loss-function and the accuracy vs the epochs for the training and testing set are shown below:</b></p>
-
-
+<img src="Loss_Functions_Accuracy_FER.png"/>
+<p>We can see that we achieve <b>67 % accuracy </b> on the training set and around <b> 64% accuracy </b> on the validation (testing) set.
+ 
