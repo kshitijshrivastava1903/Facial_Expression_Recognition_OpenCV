@@ -42,6 +42,7 @@ Convolutional Neural Networks have 2 main components:
 For more detailed information on CNNs refer to this <a href=https://medium.com/@purnasaigudikandula/a-beginner-intro-to-convolutional-neural-networks-684c5620c2ce>link</a>
 
 <h2>Our model</h2>
+![](model.png)
 
 <br>
 This model has ben taken from a <a href=http://cs231n.stanford.edu/reports/2016/pdfs/005_Report.pdf>research paper</a> by Stanford University on finding the best model for facial expression recognition.
