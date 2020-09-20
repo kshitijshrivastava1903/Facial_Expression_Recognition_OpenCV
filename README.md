@@ -71,5 +71,25 @@ This model has ben taken from a <a href=http://cs231n.stanford.edu/reports/2016/
 <h2>The main.py script</h2>
 <p>After we have detected faces using haarcascade and created a webpage to display video, we will integrate these two modules with our server, using flask and display it in our localhost. This is the script that integrates all other files we have created in this project. This will be executed in the terminal to get the final output.</p>
 <h1> Some screenshots of the final output in our browser : </h1>
-
+<img src="Angry_Face_Detection.png"/>
+<img src="Angry_Face_Detection2.png"/>
+<img src="Disgust_Face_Detection.png"/>
+<img src="Fear_Face_Detection.png"/>
+<img src="Happy_Face_Detection.png"/>
+<img src="Happy_Face_Detection2.png"/>
+<img src="Neutral_Face_Detection.png"/>
+<img src="Screenshot 2020-09-20 at 8.00.36 PM.png"/>
+<img src="Screenshot 2020-09-20 at 8.01.01 PM.png"/>
+<img src="Screenshot 2020-09-20 at 8.01.36 PM.png"/>
+<img src="Screenshot 2020-09-20 at 8.03.00 PM.png"/>
+<img src="Screenshot 2020-09-20 at 8.04.15 PM.png"/>
+<h1>Conclusion:</h1>
+In this readme file, we have learnt:
+<ol>
+<li>what are convolutional neural networks</li>
+  <li>How do do we create them using tensorflow and keras.</li> 
+  <li>How do we apply CNNs for image classification.</li>
+  <li>How do we use OpenCV for face detection.</li>
+  <li>How we use flask to deply our tensorflow models in form of web applications. </li>
+ </ol> 
  
