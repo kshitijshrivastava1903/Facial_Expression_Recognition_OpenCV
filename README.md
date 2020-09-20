@@ -44,11 +44,17 @@ For more detailed information on CNNs refer to this <a href=https://medium.com/@
 # Our model
 ![](model.png)
 <br>
-This model has ben taken from a <a href=http://cs231n.stanford.edu/reports/2016/pdfs/005_Report.pdf>research paper</a> by Stanford University on finding the best model for facial expression recognition. It consists of 4 convolutional blocks, each comprising of   
+This model has ben taken from a <a href=http://cs231n.stanford.edu/reports/2016/pdfs/005_Report.pdf>research paper</a> by Stanford University on finding the best model for facial expression recognition.
+<br>
+<br>
+<b>It consists of 4 convolutional blocks, each comprising of:</b>   
 <ol>
   <li><b>Convolutional layer</b> of a number of filters (increaing by powers of 2 in each layer) for feature extraction</li>
   <li><b>Batch Normalisation</b> for normalising the inputs fed into the next layer for avoiding covariate shift.</li>
   <li><b>Maxpooling</b> for extracting the most prominent feature in the feature maps produced after applying the convolution operations and reducing the spatial size of the representation to reduce the amount of parameters and computation in the network</li>
   <li><b>Rectified Linear Unit Activation Function</b> for allowing the model to create complex mappings between the network’s inputs and outputs, which are essential for learning and modeling complex data, such as images and data sets like these which are non-linear and have high dimensionality.</li>
-
+  <li><b>Dropout</b> for randomly shutting of some neurons in the layer for avoiding overfitting to the data i.e. to prevent our network from learning the deviations in the training data so well, that the network does not generalise on new, unseen data.</li>
+  </ol>
+<br>
+<p>The extracted features by the CNN is now passed through <b>two fully connected layers</b> with the same architecture as the convolutional blocks and then a <b>softmax</b> to make the final prediction on the basis of the probabilities of the 7 emotions predicted.</p>
 # Loss functions, validation accuracy
