@@ -36,8 +36,8 @@ The class-distribution of the training set is as follows:
 
 Convolutional Neural Networks have 2 main components:
 <ol>
-  <li><b>Feature learning:</b>We see convolution, ReLU,Pooling layer phases here. Edges,shades,lines,curves, in this feature learning step get extracted.</li>
-  <li><b>Classification</b>:We see Fully Connected(FC) layer in this phase. They will assign a probability for the object on the image according to what our CNN model predicts.</li>
+  <li><b>Feature learning:</b> We see convolution, ReLU,Pooling layer phases here. Edges,shades,lines,curves, in this feature learning step get extracted.</li>
+  <li><b>Classification:</b> We see Fully Connected(FC) layer in this phase. They will assign a probability for the object on the image according to what our CNN model predicts.</li>
  </ol>
 For more detailed information on CNNs refer to this <a href=https://medium.com/@purnasaigudikandula/a-beginner-intro-to-convolutional-neural-networks-684c5620c2ce>link.</a>
 
