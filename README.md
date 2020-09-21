@@ -1,5 +1,5 @@
 # Facial_Expression_Recognition_OpenCV_Keras
-Facial Expression Recognition is an application of Computer Vision, a boon of AI, which enables the computer recognise a pwerson's emotion on the basis of his/her facial expression. Its main applcations are listed below:
+Facial Expression Recognition is an application of Computer Vision, a boon of AI, which enables the computer recognise a person's emotion on the basis of his/her facial expression. Its main applcations are listed below:
 ## Applications:
 <ul>
 <li>It can be used to detect the predominant emotion of a person while doing a particular activity like giving a lecture, watching a video, reading a post, etc.</li>
@@ -30,16 +30,16 @@ The class-distribution of the training set is as follows:
 <h2>A brief dicussion of Convolutional Neural Networks:</h2>
 
 
-<p>In neural networks, Convolutional neural network (ConvNets or CNNs) is one of the main categories to do images recognition, images classifications. Objects detections, recognition faces etc., are some of the areas where CNNs are widely used. CNN's work on the principle of extracting low-level features in the earlier layers, like edges in the image, to more complex features in the deeper layers using complex mathematical operations (called convolving) on the pixel values of the given image using mathematical entities called filters.</p>
+<p>In neural networks, Convolutional neural network (ConvNets or CNNs) is one of the main categories for image recognition, image classifications, object detection, face recognition, etc. These are some of the areas where CNNs are widely used. CNN's work on the principle of extracting low-level features in the earlier layers, like edges in the image, to more complex features in the deeper layers using complex mathematical operations (called convolving) on the pixel values of the given image using mathematical entities called filters.</p>
 
 <img src="https://miro.medium.com/proxy/1*XbuW8WuRrAY5pC4t-9DZAQ.jpeg"/>
 
 Convolutional Neural Networks have 2 main components:
 <ol>
-  <li><b>Feature learning:</b> you can see convolution, ReLU,Pooling layer phases here. Edges,shades,lines,curves, in this Feature learning step are get extracted.</li>
-  <li><b>Classification</b>:you see Fully Connected(FC) layer in this phase. They will assign a probability for the object on the image being what the algorithm predicts it is.</li>
+  <li><b>Feature learning:</b>We see convolution, ReLU,Pooling layer phases here. Edges,shades,lines,curves, in this feature learning step get extracted.</li>
+  <li><b>Classification</b>:We see Fully Connected(FC) layer in this phase. They will assign a probability for the object on the image according to what our CNN model predicts.</li>
  </ol>
-For more detailed information on CNNs refer to this <a href=https://medium.com/@purnasaigudikandula/a-beginner-intro-to-convolutional-neural-networks-684c5620c2ce>link</a>
+For more detailed information on CNNs refer to this <a href=https://medium.com/@purnasaigudikandula/a-beginner-intro-to-convolutional-neural-networks-684c5620c2ce>link.</a>
 
 <h2>Our model:</h2>
 <img src="model.png"/>
@@ -86,7 +86,7 @@ This model has ben taken from a <a href=http://cs231n.stanford.edu/reports/2016/
 <h1>Conclusion:</h1>
 In this readme file, we have learnt:
 <ol>
-<li>what are convolutional neural networks</li>
+<li>What are convolutional neural networks.</li>
   <li>How do do we create them using tensorflow and keras.</li> 
   <li>How do we apply CNNs for image classification.</li>
   <li>How do we use OpenCV for face detection.</li>
